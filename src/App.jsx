@@ -9,7 +9,7 @@ import SharedLayout from './Layouts/SharedLayout';
 
 function App() {
     return (
-        <Router basename="/">
+        <Router basename="/mysimpleshop">
             <div className="App">
                 <Routes>
                     {configLayouts.map((route, index) => {
